@@ -13,8 +13,8 @@ void desEncrypt(uint64_t* data, uint64_t* key) {
 }
 
 int main() {
-    uint64_t plaintext = 0x0123456789ABCDEF; // 64-bit plaintext
-    uint64_t key = 0x133457799BBCDFF1;        // 64-bit key
+    uint64_t plaintext = 0x0123456789ABCDEF; 
+    uint64_t key = 0x133457799BBCDFF1;       
 
     printf("Original Plaintext: 0x%016llX\n", plaintext);
     printf("Key: 0x%016llX\n", key);
